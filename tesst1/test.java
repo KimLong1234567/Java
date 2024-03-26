@@ -93,7 +93,7 @@ public class test extends main {
 	}
 	
     public float tien() {
-        return sluong * dgia * tgia; // Sửa tên biến thành tigia
+        return sluong * dgia * tgia; 
     }
 
 	public static void main(String[] args) {
@@ -124,7 +124,7 @@ public class test extends main {
 		        System.out.println(ds[i].layMgd());
 		    }
 		}
-		 // Thống kê số tiền của các giao dịch tiền tệ theo tháng-năm
+
         float totalMoney = 0.0f;
         System.out.println("\nThong ke so tien cua cac giao dich tien te theo thang-nam:");
         for (int i = 0; i < n; i++) {
